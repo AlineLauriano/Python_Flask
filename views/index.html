@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Python</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, sit?
+        Voluptatum itaque eius nemo sunt. Autem animi quaerat nam aliquam minus
+        est voluptas inventore totam id, delectus blanditiis beatae illum!
+    </p>
+
+    O meu nome completo é {{nome + " " + sobrenome}}
+
+    {% if nome == "Aline" %}
+    <h3>O nome está correto!</h3>
+    {% elif nome == "Maria" %}
+    <h3>Também está correto!</h3>
+    {% else %}
+    <h3>Nome incorreto!</h3>
+    {% endif %}
+
+    <!--O /crud será definido como Rota-->
+    <a href="/crud">Acessar painel de controle</a>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(128, 163, 174);
+  }
+  
+h1{
+    color: rgb(3, 39, 49);
+    margin-left: 30px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 3px;
+    color: rgb(3, 39, 49);
+    background-color: aliceblue;
+    padding: 5px;
+
+}
+  
